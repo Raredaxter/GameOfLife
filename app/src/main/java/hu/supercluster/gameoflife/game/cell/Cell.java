@@ -7,7 +7,7 @@ public interface Cell {
     void reset(int state);
     long getId();
     int getY();
-    int getX();
+    int getX()
     void setState(int state);
     int getState();
     boolean isAlive();
